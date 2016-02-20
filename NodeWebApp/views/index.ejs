@@ -157,7 +157,7 @@
                                     <i class="fa fa-exchange fa-lg"></i>
                                 </div>
                                 <span id='avgPing' data-to="150">0</span>
-                                <p>Avd Ping Time (ms)</p>
+                                <p>Average Ping Time (ms)</p>
                             </div>
                         </div>
                         
@@ -166,7 +166,7 @@
                                 <div class="fact-icon">
                                     <i class="fa fa-download fa-lg"></i>
                                 </div>
-                                <span data-to="150">0</span>  
+                                <span data-to="105">0</span>  
                                 <p> Expected Download Speed (Mbps)</p>
                             </div>
                         </div>
@@ -236,7 +236,7 @@
                              <%
         tabular.forEach(function(el, index) {  %>
         <tr>
-        <td>  <%=  new Date( el.dateTime._ ) %></td>
+        <td>  <%=   el.dateTime._  %></td>
         <td>  <%=  el.downloadSpeed._ %></td>
          <td> <%=  el.uploadSpeed._ %></td>
          <td> <%=  el.server._ %></td>
@@ -355,7 +355,7 @@
                     <div class="col-md-12 wow fadeInUp">
                         <div class="special-plan text-center">
                             <p>Check the code and process on GitHub</p>
-                            <a href="#" class="btn btn-blue">Go to GitHub</a>
+                            <a href="https://github.com/devmaven/comcastSpeedTestAnalytics" target='_blank' class="btn btn-blue">Go to GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -469,7 +469,7 @@
             
          <%
         charts.forEach(function(el, index) {  %>
-         dateTime.push( new Date( ' <%=  el.dateTime._ %>' ));
+         dateTime.push(  ' <%=  el.dateTime._ %>' );
              uploadSpeed.push(<%=  el.uploadSpeed._ %>);
              downloadSpeed.push(<%=  el.downloadSpeed._ %>);
              actualDownloadSpeed.push(105);
@@ -503,7 +503,7 @@
                     text: 'Comcast Speed Test Results'
                 },
                 subtitle: {
-                    text: 'Daily'
+                    text: 'Interval : 15 mins'
                 },
                 xAxis: {
                     categories:dateTime,
@@ -515,7 +515,7 @@
                 yAxis: {
                     min: 0,
                     title: {
-                        text: 'Units'
+                        text: 'Mbps'
                     }
                 },
                 tooltip: {
