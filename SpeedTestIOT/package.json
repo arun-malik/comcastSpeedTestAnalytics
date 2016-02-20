@@ -1,0 +1,14 @@
+{
+  "name": "speedTestApp",
+  "description": "Node Js app check speed and push it on cloud",
+  "author": "Arun Malik (malikarun@gmail.com)",
+  "dependencies": {
+    "speedtest-net": "*" ,
+    "azure-storage" : "*",
+    "node-uuid" : "*",
+    "nconf" : "*",
+    "async" : "*" ,
+    "cron" : "*"   
+  },
+  "engine": "node 0.12.2"
+}
