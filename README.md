@@ -1,0 +1,2 @@
+# comcastSpeedTestAnalytics
+This project contains 2 projects, 1.WebApp (NodeJs)  2.Simple NodeJS app (can be deployed on IOT devices). Project is to get speed test data every 15mins and store it on Microsoft Azure Storage Table. WebApp fetch data and display analytics.  TODO: Daily Average Speed is less than 50% than expected tweet webapp link. Technologies Used: NodeJS, HTML5, HighCharts, DatatableJS, Microsoft Azure Storage Tables.
