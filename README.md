@@ -30,9 +30,9 @@ Technologies:
 ScreenShots
 =============
 
-![Screen 1 ](comcastSpeedTestScreenShots/HomePageStats.png.png)
+![Screen 1 ](comcastSpeedTestScreenShots/HomePageStats.png)
 
-![Screen 2 ](comcastSpeedTestScreenShots/Chart.png.png)
+![Screen 2 ](comcastSpeedTestScreenShots/Chart.png)
 
 ![Screen 3 ](comcastSpeedTestScreenShots/Details.png)
 
