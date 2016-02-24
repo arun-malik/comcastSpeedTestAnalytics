@@ -25,3 +25,14 @@ Technologies:
   * npm install (both projects)
   * node app.js (SpeedTestIOT)
   * node start (NodeWebApp)
+  * 
+  
+ScreenShots
+=============
+
+![Screen 1 ](comcastSpeedTestScreenShots/HomePageStats.png.png)
+
+![Screen 2 ](comcastSpeedTestScreenShots/Chart.png.png)
+
+![Screen 3 ](comcastSpeedTestScreenShots/Details.png)
+
